@@ -6,7 +6,7 @@ const existingButton=document.getElementById('existing');
 	if(localStorage.getItem('username')&&localStorage.getItem('password')){
 		existingButton.style.display = 'block';
 	}
-	loginForm.addEventListener('submit',function(event)=>{
+	loginForm.addEventListener('submit',function(event){
 		event.preventDefault();
 		const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
