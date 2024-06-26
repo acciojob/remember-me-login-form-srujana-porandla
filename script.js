@@ -24,7 +24,7 @@ const existingButton=document.getElementById('existing');
     });
     existingButton.addEventListener('click', function() {
         const username = localStorage.getItem('username');
-        alert(`Logged in as ${username}`);
+        console.log(alert(`Logged in as ${username}`));
     });
 	
 });	
